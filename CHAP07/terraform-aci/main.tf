@@ -2,7 +2,7 @@ provider "azurerm" {}
 
 terraform {
   backend "azurerm" {}
-  required_version = "= 0.13.4"
+  required_version = "= 0.12.26"
 }
 
 resource "azurerm_resource_group" "acidemobook" {
